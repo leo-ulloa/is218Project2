@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Azure Cloud Website Tutorial</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="reset.css">
+    <link rel= "stylesheet" href="debug.css">
+    <link rel = "stylesheet" href ="article.css">
+    <link rel = "stylesheet" href ="article-image.css">
+    <link rel= "stylesheet" href="article-text.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="navbar.css">
+    <script src ="script.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <a href="index.html" class="navbar-brand">Azure Cloud Website Tutorial</a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarMenu">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a href="github.html" class="nav-link">Github</a>
+                </li>
+                <li class="nav-item">
+                    <a href="docker.html" class="nav-link">Docker</a>
+                </li>
+                <li class="nav-item">
+                    <a href="linux.html" class="nav-link">Linux Commands</a>
+                </li>
+                <li class="nav-item">
+                    <a href="vi.html" class="nav-link">Visual Editor</a>
+                </li>
+                <li class="nav-item">
+                    <a href="azure.html" class="nav-link">Azure</a>
+                </li>
+                <li class="nav-item">
+                    <a href="pylint.html" class="nav-link">Pylint</a>
+                </li>
+                <li class="nav-item">
+                    <a href="testing.html" class="nav-link">AAA Testing</a>
+                </li>
+                <li class="nav-item">
+                    <a href="oop.html" class="nav-link">Principles of OOP</a>
+                </li>
+                <li class="nav-item">
+                    <a href="pattern.html" class="nav-link">Separation of Concerns</a>
+                </li>
+            </ul>
+        </div>
+
+    </nav>
+    <article id="the-cosmos">
+        
+        <h1>Introduction to AAA Testing in Python</h1>
+        <p>
+            When writing programs, getting into the habit of testing all of the methods and functions in your program is important, especially when in a professional setting.
+            If you are creating a very large program with many different classes and methods, then it may become hard to find errors that pop up in your code.
+            This is where AAA testing comes in.
+        </p>
+        <p>
+            Arrange-Act-Assert (AAA) testing is a formula for testing methods that verifies they are running correctly.
+        </p>
+        <h3>Arrange</h3>
+        <p>
+            The first step is to Arrange the test cases. This involves instantiating objects, logging into databases, clearing previous iterations, etc.
+        </p>
+        <h3>Act</h3>
+        <p>
+            The next step is to Act on the target behavior. This is the main function or method being tested which requires that function or method to be called, operation to be performed, etc.
+        </p>
+        <h3>Assert</h3>
+        <p>
+            Based on the Arrange and Act steps, the final step is to Assert the expected outcome. Assertions determine whether the test passes or fails. Assertions can check for values, other properties of a program, etc.
+        </p>
+        <p>
+            An example of AAA testing would be this test for the divide function of a calculator I created in PyCharm.
+        </p>
+        <img src="dividetest.JPG" width="600px" height="600px" style="display:block; margin-left: auto;margin-right: auto;">
+        <p>
+            This divide class works by accepting a tuple of numbers and dividing them sequentially until it reaches the end.
+            Both functions follow the AAA testing pattern but perform different tests. The first function creates a simple tuple and asserts that the expected outcome is generated.
+            If a 0 is in the tuple, the divide class raises a DivideByZero error and stops the program. The second test explicitly activates this and asserts that the correct error is raised.
+        </p>
+        <p>
+            The repository for this division test and calculator can be found <a href="https://github.com/leo-ulloa/calc3/blob/version_3/tests/test_divide.py">here</a>
+        </p>
+
+
+
+        
+    </article>
+
+</body>
+</html>

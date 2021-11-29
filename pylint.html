@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Azure Cloud Website Tutorial</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="reset.css">
+    <link rel= "stylesheet" href="debug.css">
+    <link rel = "stylesheet" href ="article.css">
+    <link rel = "stylesheet" href ="article-image.css">
+    <link rel= "stylesheet" href="article-text.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="navbar.css">
+    <script src ="script.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <a href="index.html" class="navbar-brand">Azure Cloud Website Tutorial</a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarMenu">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a href="github.html" class="nav-link">Github</a>
+                </li>
+                <li class="nav-item">
+                    <a href="docker.html" class="nav-link">Docker</a>
+                </li>
+                <li class="nav-item">
+                    <a href="linux.html" class="nav-link">Linux Commands</a>
+                </li>
+                <li class="nav-item">
+                    <a href="vi.html" class="nav-link">Visual Editor</a>
+                </li>
+                <li class="nav-item">
+                    <a href="azure.html" class="nav-link">Azure</a>
+                </li>
+                <li class="nav-item">
+                    <a href="pylint.html" class="nav-link">Pylint</a>
+                </li>
+                <li class="nav-item">
+                    <a href="testing.html" class="nav-link">AAA Testing</a>
+                </li>
+                <li class="nav-item">
+                    <a href="oop.html" class="nav-link">Principles of OOP</a>
+                </li>
+                <li class="nav-item">
+                    <a href="pattern.html" class="nav-link">Separation of Concerns</a>
+                </li>
+            </ul>
+        </div>
+
+    </nav>
+    <article id="the-cosmos">
+        
+        <h1>Introduction to Pylint</h1>
+        <p>
+          In this tutorial, you will get a basic understanding of Pylint and OOP terminologies
+      </p>
+      <h3>Pylint:</h3>
+      <p>
+          Pylint is a tool that can be imported and used to check for errors in python programs.
+      </p>
+      <p>
+          There are a few different ways to implement Pylint into your system. For this tutorial, you want to add a requirements.txt file to your project repository and run "pip install -r requirements.txt" in the terminal.
+      </p>
+      <img src="pip install.JPG" width="600px" height="600px" style="display:block; margin-left: auto;margin-right: auto;">
+      <p>
+          After successfully installing pylint, to use pylint you run the command "pytest --pylint --cov". This command will run pylint on every .py file in your project. It will return any errors found in any of your files and will tell you the type of error, line number, etc.
+      </p>
+      <img src="pylint.JPG" width="600px" height="600px" style="display:block; margin-left: auto;margin-right: auto;">
+      <h3>Object Oriented Programming Glossary:</h3>
+      <p>
+          Factory: An object for creating other objects
+      </p>
+      <p>
+          Object: a value in memory referenced by an identifier
+      </p>
+      <p>
+          Instantiation: Creation of an object
+      </p>
+      <p>
+          Class: abstract template for creating specific objects
+      </p>
+      <p>
+          Method: a function in OOP that performs an action
+      </p>
+      <p>
+          Property: fields of objects/classes with dedicated getter/setter routines
+      </p>
+      <p>
+          Namespace: declarative region that provides a scope to the identifiers inside of it
+      </p>
+      <p>
+          Constructor: allows you to initialize an object's properties when creating an object
+      </p>
+      <p>
+          Fixture: A known state against which a test is running
+      </p>
+      <p>
+          Type Hint: providing hints to function to only accept the given data type
+      </p>
+      <p>
+          Type Cast: The product of class inheritance
+      </p>
+      <p>
+          Unit Test: Testing all methods and functions of a program to ensure that they work in isolation
+      </p>
+      <p>
+          Static: Functions that provide functionality related to an a particular class without requiring the programmer to first create an instance of that class
+      </p>
+    </article>
+
+</body>
+</html>
